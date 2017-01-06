@@ -86,7 +86,7 @@ public class ShowAngle
 	//in case of wrong hours and minutes value entry, you have to re-enter the value
 	public int getNumber()
 	{
-		return Integer.parseInt(new Scanner(System.in).nextLine());
+		return (new Scanner(System.in).nextInt());
 	}
 	
 	//converts the hour to equivalent 0-12 space
